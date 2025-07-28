@@ -16,7 +16,7 @@ def main():
 
     if not args:
         print("AI Code Assistant")
-        print('\nUsage: python main.py "your prompt here"')
+        print('\nUsage: python main.py "your prompt here" [--verbose]')
         print('Example: python main.py "How do I build a calculator app?"')
         sys.exit(1)
 
